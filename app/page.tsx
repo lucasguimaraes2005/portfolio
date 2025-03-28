@@ -28,7 +28,7 @@ export default function Home() {
             className="flex justify-center"
           >
             <Avatar className="w-32 h-32 border-4 border-primary">
-              <AvatarImage src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=256" />
+              <AvatarImage src="https://avatars.githubusercontent.com/u/129208350?v=4" />
               <AvatarFallback>
                 <User className="w-12 h-12" />
               </AvatarFallback>
@@ -40,7 +40,7 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="text-4xl font-bold"
           >
-            Seu Nome
+            Lucas Guimarães
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}
@@ -48,7 +48,7 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.6 }}
             className="text-xl text-muted-foreground"
           >
-            Desenvolvedor Full Stack
+            Software Developer
           </motion.p>
         </div>
 
@@ -58,13 +58,13 @@ export default function Home() {
           transition={{ duration: 0.5, delay: 0.8 }}
           className="flex justify-center gap-4"
         >
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
+          <a href="https://github.com/lucasguimaraes2005" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
             <Github className="w-6 h-6" />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
+          <a href="https://www.linkedin.com/in/lucas-guimar%C3%A3es-1b889a227/" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
             <Linkedin className="w-6 h-6" />
           </a>
-          <a href="mailto:seu@email.com" className="hover:scale-110 transition-transform">
+          <a href="mailto:lucaagui123@gmail.com" className="hover:scale-110 transition-transform">
             <Mail className="w-6 h-6" />
           </a>
         </motion.div>
@@ -78,9 +78,11 @@ export default function Home() {
             <CardContent className="p-6">
               <h2 className="text-2xl font-semibold mb-4">Sobre Mim</h2>
               <p className="text-muted-foreground">
-                Olá! Sou um desenvolvedor apaixonado por criar soluções web incríveis.
-                Com experiência em React, Next.js, Node.js e várias outras tecnologias,
-                estou sempre buscando aprender e evoluir na área de desenvolvimento.
+              Meu nome é Lucas, e eu sou um desenvolvedor de software focado no back-end, porém, com familiaridade com o front-end. Hoje, trabalho com soluções em .NET/C# juntamente ao Angular e desenvolvo
+              projetos pessoais em diferentes tecnologias, entre elas, SpringBoot (Java), NextJS e Dart. Tenho desenvoltura em gerenciamento de processos, DEVOPS e CI/CD, sempre trabalhando com Azure e 
+              desenvolvendo meu conhecimento com projetos utilizando Docker, Kafka, entre outras ferramentas. Busco sempre oferecer meu melhor e buscar mais conhecimento, fornecendo código limpo,
+              buscando melhores soluções de arquitetura e escalabilidade, bem como observabilidade. Tenho muito interesse na qualidade do código, sempre buscando cobertura de testes. 
+              No meu tempo livre, gosto de jogar e assistir a filmes que já vi mais de dez vezes.
               </p>
             </CardContent>
           </Card>
@@ -96,10 +98,10 @@ export default function Home() {
             <CardContent className="p-6">
               <h2 className="text-2xl font-semibold mb-4">Habilidades</h2>
               <div className="flex flex-wrap gap-2">
-                <Badge>React</Badge>
-                <Badge>Next.js</Badge>
-                <Badge>TypeScript</Badge>
-                <Badge>Node.js</Badge>
+                <Badge>.NET/C#</Badge>
+                <Badge>SpringBoot/Java</Badge>
+                <Badge>NextJS/TypeScript</Badge>
+                <Badge>Scrum</Badge>
                 <Badge>Tailwind CSS</Badge>
                 <Badge>Git</Badge>
               </div>
@@ -111,12 +113,16 @@ export default function Home() {
               <h2 className="text-2xl font-semibold mb-4">Experiência</h2>
               <ul className="space-y-2">
                 <li>
-                  <strong>Desenvolvedor Full Stack</strong>
-                  <p className="text-sm text-muted-foreground">Empresa XYZ • 2022 - Presente</p>
+                  <strong>Desenvolvedor Back End</strong>
+                  <p className="text-sm text-muted-foreground">HeroCorp • 2024 - Presente</p>
                 </li>
                 <li>
-                  <strong>Desenvolvedor Front-end</strong>
-                  <p className="text-sm text-muted-foreground">Empresa ABC • 2020 - 2022</p>
+                  <strong>Estágio</strong>
+                  <p className="text-sm text-muted-foreground">HeroCorp • 2023 - 2024</p>
+                </li>
+                <li>
+                  <strong>Estágio</strong>
+                  <p className="text-sm text-muted-foreground">PicPay • 2021 - 2022</p>
                 </li>
               </ul>
             </CardContent>
@@ -132,17 +138,16 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Card className="overflow-hidden">
               <CardContent className="p-6">
-                <div className="aspect-video bg-muted rounded-lg mb-4" />
-                <h3 className="text-xl font-semibold mb-2">Projeto 1</h3>
+                <h3 className="text-xl font-semibold mb-2">API Conta Bancária</h3>
                 <p className="text-muted-foreground mb-4">
-                  Uma descrição breve do projeto e as tecnologias utilizadas.
-                </p>
+                Projeto pessoal que consiste em uma API em Springboot para gerenciamento de uma conta bancária, com transações funcionais 
+                entre as contas criadas e gerenciamento dos valores depositados. Utiliza-se no projeto o Spring Security, com JWT incluído para proteção das rotas.                </p>
                 <div className="flex gap-2 mb-4">
-                  <Badge variant="secondary">React</Badge>
-                  <Badge variant="secondary">TypeScript</Badge>
+                  <Badge variant="secondary">Java</Badge>
+                  <Badge variant="secondary">SpringBoot</Badge>
                 </div>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/lucasguimaraes2005/api-contabancaria"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-sm hover:underline"
@@ -154,17 +159,17 @@ export default function Home() {
 
             <Card className="overflow-hidden">
               <CardContent className="p-6">
-                <div className="aspect-video bg-muted rounded-lg mb-4" />
-                <h3 className="text-xl font-semibold mb-2">Projeto 2</h3>
+                <h3 className="text-xl font-semibold mb-2">YoungDreamData</h3>
                 <p className="text-muted-foreground mb-4">
-                  Uma descrição breve do projeto e as tecnologias utilizadas.
+                  Projeto pessoal realizado em NextJS com PrismaORM e PostgreSQL. Consiste em uma aplicação completa e robusta para gerenciamento 
+                  de alunos de instituições de ensino. Seu diferencial é o sistema de chamada por biometria facial utilizando a faceAPI.
                 </p>
                 <div className="flex gap-2 mb-4">
                   <Badge variant="secondary">Next.js</Badge>
                   <Badge variant="secondary">Tailwind</Badge>
                 </div>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/lucasguimaraes2005/youngdreamdata-4.0"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-sm hover:underline"
